@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>wanicombien</title>
+
+    <link href="./bootstrap.5.1.3.min.css" rel="stylesheet">
+    <link href="./wanicombien.css" rel="stylesheet">
+</head>
+<body>
+<div class="fullscreen">
+    <form id="apiTokenForm" class="wanikani-key-form" style="display: none;">
+        <div class="mb-3">
+            <label for="apiTokenInput" class="form-label">Wanikani API token</label>
+            <input class="form-control" id="apiTokenInput" aria-describedby="apiTokenInputHelp"
+                   placeholder="abcd1234-abcd-5679-abcd-abcdef123456">
+            <div id="apiTokenInputHelp" class="form-text">Get your token in <a
+                    href="https://www.wanikani.com/settings/personal_access_tokens" target="_blank">wanikani
+                settings</a></div>
+        </div>
+        <div class="form-button">
+            <button class="btn btn-primary" id="apiTokenSubmit">Submit</button>
+        </div>
+    </form>
+    <div id="vizu">
+        Loading
+    </div>
+</div>
+
+<script src="./jquery.3.6.0.min.js"></script>
+<script src="./lodash.4.17.21.min.js"></script>
+<script src="./wanicombien.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.fullscreen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* form */
+.apiTokenForm {
+    display: none;
+}
+
+.wanikani-key-form {
+    width: 360px;
+}
+
+.wanikani-key-form ::placeholder {
+    color: #bdc3c7;
+    opacity: 1; /* Firefox */
+}
+
+.form-button {
+    text-align: right;
+}
+
+/* graph */
+
+#vizu {
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#graph {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+}
+
+.label {
+    font-size: 10px;
+    overflow: hidden;
+    text-align: center;
+    color: #7f8c8d;
+    white-space: nowrap;
+}
+
+.bars {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    flex-direction: row;
+}
+
+.bar {
+    height: 0;
+    background-color: #9b59b6;
+    border-bottom: 1px solid #7f8c8d;
+}

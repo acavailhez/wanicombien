@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "md5": "^2.3.0",
+    "uglify-js": "^3.15.3",
+    "uglifycss": "^0.0.29"
+  }
+}

@@ -1,0 +1,14 @@
+
+**/build
+
+# INTELLIJ
+**/*.idea/**
+**/*.iws
+**/*.log
+**/*.log.*
+**/deploy/
+**/atlassian-ide-plugin.xml
+**/out
+
+# NODE IGNORES
+**/node_modules
